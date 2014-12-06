@@ -12,6 +12,6 @@ Cuando se pulsa el botón "Cambiar color", el texto "La esencia de la vida es ir
 
 Cuando hagas clic en los botones, debe cambiar su texto, el color del
 texto y/o el color del botón del siguiente modo:
->	- De "Programación en Android" a "Prefiero Android". El color del texto a Color.GREEN.
->	- De "Programación en Java" a "Prefiero Java". El color del botón a Color.YELLOW.
->	- De "Programación avanzada en Java EE" a "Prefiero Java EE". El color del texto a Color.BLUE y el color del botón a Color.CYAN.
+	- De "Programación en Android" a "Prefiero Android". El color del texto a Color.GREEN.
+	- De "Programación en Java" a "Prefiero Java". El color del botón a Color.YELLOW.
+	- De "Programación avanzada en Java EE" a "Prefiero Java EE". El color del texto a Color.BLUE y el color del botón a Color.CYAN.
