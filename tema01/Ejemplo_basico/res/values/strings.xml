@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejemplo_basico</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtEsencia">La esencia de la vida es ir hacia adelante.</string>
+    <string name="btnCambiarColor">Cambiar color</string>
+    <string name="txtVida">La vida es digna de ser vivida con pasión.</string>
+
+</resources>
