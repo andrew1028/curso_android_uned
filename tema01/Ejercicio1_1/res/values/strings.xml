@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejercicio1_1</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtPregunta">¿Qué curso prefieres recibir en EITIE 2014?</string>
+    <string name="btnAndroid">Programación en Android</string>
+    <string name="btnJava">Programación en Java</string>
+    <string name="btnJavaEE">Programación en Java EE</string>
+
+</resources>
