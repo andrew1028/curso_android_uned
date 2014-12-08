@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejercicio2_1</string>
+    <string name="txtValor1">Introduzca el primer valor:</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtValor2">Introduzca el segundo valor:</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="edResultado">Resultado:</string>
+
+</resources>
