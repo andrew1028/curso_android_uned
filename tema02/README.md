@@ -3,10 +3,11 @@ Tema 2
 
 ### Ejercicio 2.1: Button
 Crear una calculadora sencilla que sume dos números.
-* [Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/resultado2_1.png)
+[Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/resultado2_1.png)
 
 ### Ejercicio 2.2: Radio Button
-> Crear una calculadora sencilla que sume o reste dos números al pulsar un botón. Utilizaremos dos RadioButton para las operaciones.
+Crear una calculadora sencilla que sume o reste dos números al pulsar un botón. Utilizaremos dos RadioButton para las operaciones.
+[Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/resultado2_2.png)
 
 ### Ejercicio 2.3: Spinner
 > Crear una calculadora sencilla que sume,reste, multiplique o divida dos números.
