@@ -14,8 +14,9 @@ Crear una calculadora sencilla que sume,reste, multiplique o divida dos números
 [Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/resultado2_3.png)
 
 ### Ejercicio 2.4: ListView
-> La interfaz estará compuesta de un TextView donde se mostrará la información de un país y un ListView (composite) donde se seleccionará el país. Al hacer clic en un país deberemos modificar el TextView con la información de cada país.
+La interfaz estará compuesta de un TextView donde se mostrará la información de un país y un ListView (composite) donde se seleccionará el país. Al hacer clic en un país deberemos modificar el TextView con la información de cada país.
 Se han de crear 2 ArrayList, uno con países y otro con las poblaciones. Le añadiremos el Array de países a un ListView en el layout.
+[Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/resultado2_4.png)
 
 ### Ejercicio 2.5: ImageButton
 > Crear un botón a partir de una imagen que modifique un TextView.
