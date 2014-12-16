@@ -19,7 +19,8 @@ Se han de crear 2 ArrayList, uno con países y otro con las poblaciones. Le aña
 [Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/resultado2_4.png)
 
 ### Ejercicio 2.5: ImageButton
-> Crear un botón a partir de una imagen que modifique un TextView.
+Crear un botón a partir de una imagen que modifique un TextView.
+[Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/resultado2_5.png)
 
 ### Ejercicio 2.6: CheckBox
 > Crear una calculadora sencilla que sume y/o reste dos números al pulsar un botón.
