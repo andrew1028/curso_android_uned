@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejercicio2_6</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtValor1">Introduce un valor:</string>
+    <string name="txtValor2">Introduce otro valor:</string>
+    <string name="txtResultado">Resultado:</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="chkSumar">Sumar</string>
+    <string name="chkRestar">Restar</string>
+
+</resources>

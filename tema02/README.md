@@ -23,7 +23,8 @@ Crear un botón a partir de una imagen que modifique un TextView.
 [Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/resultado2_5.png)
 
 ### Ejercicio 2.6: CheckBox
-> Crear una calculadora sencilla que sume y/o reste dos números al pulsar un botón.
+Crear una calculadora sencilla que sume y/o reste dos números al pulsar un botón.
+[Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/resultado2_6.png)
 
 ### Ejercicio 2.7: Creación visual de vistas
 > Construir visualmente la interfaz de usuario con los siguiente objetos:
