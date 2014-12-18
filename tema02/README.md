@@ -27,8 +27,9 @@ Crear una calculadora sencilla que sume y/o reste dos números al pulsar un bot�
 [Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/resultado2_6.png)
 
 ### Ejercicio 2.7: Creación visual de vistas
-> Construir visualmente la interfaz de usuario con los siguiente objetos:
+Construir visualmente la interfaz de usuario con los siguiente objetos:
 Linear layout, Toggle button, CheckBox (10px margen, centrado), Progressbar y RatingBar.
+[Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/resultado2_7.png)
 
 ### Ejercicio 2.8: Uso de layouts.
 > Diseño con RelativeLayout, TableLayout y AbsoluteLayout.
