@@ -35,7 +35,7 @@ Linear layout, Toggle button, CheckBox (10px margen, centrado), Progressbar y Ra
 Diseño con RelativeLayout, TableLayout y AbsoluteLayout.
 [Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/resultado2_8.png)
 
-### Ejercico 2.9: Uso de layout.
+### Ejercicio 2.9: Uso de layout.
 Construir una fila de cuatro botones horizontalmente ocupando todo el ancho de la pantalla. Cada botón tiene que ocupar el mismo espacio, o sea, el 25% del ancho de la pantalla (a cada botón: layout_weight=1). Dejar un espacio alrededor del grupo de botones de 20dp. Separar entre sí cada uno de los botones por 5dp.
 [Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/resultado2_9.png)
 
