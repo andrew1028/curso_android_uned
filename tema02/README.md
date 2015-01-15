@@ -43,7 +43,8 @@ Construir una fila de cuatro botones horizontalmente ocupando todo el ancho de l
 ![Interfaz](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/ejercicio2_10.png "Formulario")
 
 ### Ejercicio 2.11a: Menú acerca de...
-> Crear un menú de opciones que muestre el autor en un Toast en "Acerca de" y la opción de salir.
+Crear un menú de opciones que muestre el autor en un Toast en "Acerca de" y la opción de salir.
+[Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/resultado2_11a.png)
 
 ### Ejercicio 2.11b: Menú de sitios interesantes
 > Crear un menú de opciones que muestre un submenú con enlaces a sitios web y laopción de salir.
