@@ -51,4 +51,5 @@ Crear un menú de opciones que muestre un submenú con enlaces a sitios web y la
 [Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/resultado2_11b.png)
 
 ### Ejercicio 2.11c: Menú contextual
-> Crear un menú contextual que modifique el color de un EditText
+Crear un menú contextual que modifique el color de un EditText
+[Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema02/img/resultado2_11c.png)
