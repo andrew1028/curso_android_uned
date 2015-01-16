@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejercicio2_11b</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="salir">Salir</string>
+    <string name="sitios">Sitios</string>
+    <string name="google">http://www.google.com</string>
+    <string name="github">http://github.com</string>
+    <string name="endomondo">http://www.endomondo.com</string>
+
+</resources>
