@@ -12,7 +12,7 @@ activa la segunda actividad mostrando un mensaje de bienvenida. si se ingresa un
 se limpia el campo de texto para poder ingresar otra clave.
 [Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema03/img/resultado302.png)
 
-### Ejercicio 303:
+### Ejercicio 303: Lanzar una segunda actividad y pasar parámetros
 Desarrolla un programa que solicite el ingreso de una dirección de un sitio web y seguidamente abrir 
 una segunda actividad que muestre dicha página.
 [Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema03/img/resultado303.png)
