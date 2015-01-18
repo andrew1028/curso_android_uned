@@ -17,6 +17,9 @@ Desarrolla un programa que solicite el ingreso de una dirección de un sitio web
 una segunda actividad que muestre dicha página.
 [Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema03/img/resultado303.png)
 
-### Ejercicio 304:
+### Ejercicio 304: Recibir respuesta de una sengunda actividad
+Desarrollar un programa que solicite un nombre de usuario. La segunda actividad hará una pregunta al 
+usuario. El resultado de esa pregunta lo recibe la primera actividad y lo muestra con un mensaje.
+[Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema03/img/resultado304.png)
 
 ### Ejercicio 305:

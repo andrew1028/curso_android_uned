@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejercicio304</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tvInicial">Nombre:</string>
+    <string name="btnVerificar">Verificar</string>
+    <string name="tvResultado">Resultado:</string>
+    <string name="title_activity_condiciones">Ejercicio304</string>
+    <string name="tvPregunta" />
+    <string name="btnAceptado">Aceptado</string>
+    <string name="btnRechazado">Rechazado</string>
+
+</resources>
