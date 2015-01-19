@@ -32,14 +32,12 @@ public class Condiciones extends ActionBarActivity {
         Intent i = new Intent(this, Ejercicio304.class);
         if (view == btnOK){
             i.putExtra("resultado", "Aceptado");
-            startActivityForResult(i,1234);
-            
         }
         else{
             i.putExtra("resultado", "Rechazado");
-            startActivityForResult(i,1234);
         }
         setResult(RESULT_OK, i);
+        startActivityForResult(i,1234);
         finish();
     }
     

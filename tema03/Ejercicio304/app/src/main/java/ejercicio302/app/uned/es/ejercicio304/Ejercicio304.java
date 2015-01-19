@@ -3,6 +3,7 @@ package ejercicio302.app.uned.es.ejercicio304;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -14,7 +15,7 @@ public class Ejercicio304 extends ActionBarActivity {
 
     private EditText et1;
     private TextView tv1;
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +23,6 @@ public class Ejercicio304 extends ActionBarActivity {
         et1 = (EditText)findViewById(R.id.etNombre);
         tv1 = (TextView)findViewById(R.id.tvResultado);
     }
-
 
     public void verificar(View view) {
         Intent i = new Intent(this, Condiciones.class);
@@ -32,11 +32,14 @@ public class Ejercicio304 extends ActionBarActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
-        if (requestCode==1234 && resultCode==RESULT_OK) {
-            String res = data.getExtras().getString("resultado");
-            tv1.setText(tv1.getText() + res + ".");
-            System.out.println(res);
-            //tv1.setVisibility(View.VISIBLE);
+        try {
+            if (requestCode == 1234 && resultCode == RESULT_OK) {
+                String res = data.getExtras().getString("resultado");
+                tv1.setText(tv1.getText() + res + ".");
+            }
+        }catch (Exception e){
+            e.getMessage();
+            System.out.println("Petando");            
         }
     }
     
