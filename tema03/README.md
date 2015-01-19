@@ -22,4 +22,7 @@ Desarrollar un programa que solicite un nombre de usuario. La segunda actividad 
 usuario. El resultado de esa pregunta lo recibe la primera actividad y lo muestra con un mensaje.
 [Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema03/img/resultado304.png)
 
-### Ejercicio 305:
+### Ejercicio 305: Intenciones
+Desarrolla una aplicación cuya interfaz de usuario disponga de 5 botones. La acción asociada a cada 
+uno de estos botones será lanzar una aplicación a través de una intención implícita.
+[Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema03/img/resultado305.png)
