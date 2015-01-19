@@ -14,3 +14,6 @@ Desarrollo de aplicaciones con Android
 
 ### Tema 3
 - 07 Anatomía de la aplicación
+
+### Tema 4
+- 08 Almacenamiento
