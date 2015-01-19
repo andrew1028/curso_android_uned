@@ -27,19 +27,15 @@ public class Ejercicio304 extends ActionBarActivity {
     public void verificar(View view) {
         Intent i = new Intent(this, Condiciones.class);
         i.putExtra("nombre", et1.getText().toString());
-        startActivity(i);
+        startActivityForResult(i,1234);
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
-        try {
-            if (requestCode == 1234 && resultCode == RESULT_OK) {
-                String res = data.getExtras().getString("resultado");
-                tv1.setText(tv1.getText() + res + ".");
-            }
-        }catch (Exception e){
-            e.getMessage();
-            System.out.println("Petando");            
+        if (requestCode == 1234 && resultCode == RESULT_OK) {
+            String res = data.getExtras().getString("resultado");
+            tv1.setText(tv1.getText() + res + ".");
+            tv1.setVisibility(View.VISIBLE);
         }
     }
     
