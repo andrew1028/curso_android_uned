@@ -2,7 +2,7 @@ Tema 4
 ======
 
 ### Ejercicio 401: SharedPreferences I
-Confeccionar un programa que solicite el ingrese del mail de una persona. Guardar el mail ingresado 
+Confeccionar un programa que solicite el ingrese el e-mail de una persona. Guardar el e-mail ingresado
 utilizando la clase _SharedPreferences_. Cada vez que se inicie la aplicación almacenar en el 
 control _EditText_ el último mail ingresado. Disponer un botón para almacenar el mail ingresado y 
 finalizar el programa.
