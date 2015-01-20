@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejercicio402</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tvAdivina">Adivina el número entre 1 y 10</string>
+    <string name="tvPuntos">Puntuación:</string>
+    <string name="btnComprobar">Comprobar</string>
+
+</resources>
