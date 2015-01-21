@@ -3,7 +3,6 @@ package app.uned.es.ejercicio402;
 import android.content.SharedPreferences;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -42,14 +41,11 @@ public class Ejercicio402 extends ActionBarActivity {
         editor = settings.edit();
                
         if (candidato == aleatorio){
-            Log.d("IF", "Son iguales");
             aux = settings.getInt(CLAVE, 0);
-            Log.d("ANTES", aux.toString());
             aux++;
             editor.putInt(CLAVE, aux);
             editor.commit();
             aux = settings.getInt(CLAVE, 0);
-            Log.d("DESPUES", aux.toString());
         }
         
         puntos.setText("Puntuación: " + settings.getInt(CLAVE,0) + ".");
