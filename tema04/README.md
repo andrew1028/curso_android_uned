@@ -28,9 +28,15 @@ datos ingresados al presionar un botón. Recuperar los datos del archivo de text
 botón. Hacer que los archivos se graben en una tarjeta SD.
 [Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema04/img/resultado404.png)
 
-### Ejercicio 405: SQLite
+### Ejercicio 405: SQLite I
 Desarrollar un programa que permita almacenar los datos de votantes de una elección. Crear la tabla 
 votantes y definir los campos dni (documento de identidad), nombre del votante, colegio donde vota y
  número de mesa donde vota. El programa debe permitir: Carga de personas, Consulta por el dni (para 
  saber donde vota). Borrado de personas. Modificación de datos. 
  [Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema04/img/resultado405.png)
+
+### Ejercicio 406: SQLite II
+Crear dos tablas de base de datos: departamentos(id,nombre) y
+empleados(dni,nombre,salario,iddepartamento). Añade filas a esas dos tablas. Muestra los departamentos en un ListView. Cuando se seleccione un departamento concreto en el ListView, mostrar los empleados de ese departamento en una vista Spinner. Cuando se seleccione un empleado de la vista Spinner, muestra un mensaje indicando quien se ha seleccionado.
+[Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema04/img/resultado406.png)
+
