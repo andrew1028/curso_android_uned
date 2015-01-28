@@ -11,6 +11,7 @@
     <string name="btConsulta">Consulta por DNI</string>
     <string name="btBorrar">Borrar</string>
     <string name="btModificar">Modificar</string>
+    <string name="toast_alta_test">Se ha dado de alta a un nuevo votante</string>
 
     
 </resources>
