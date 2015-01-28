@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejercicio405</string>
+    <string name="action_settings">Settings</string>
+    <string name="tvDni">DNI:</string>
+    <string name="tvNombre">Nombre y apellidos:</string>
+    <string name="tvColegio">Colegio:</string>
+    <string name="tvMesa">Número de mesa:</string>
+    <string name="btnAlta">Alta</string>
+    <string name="btConsulta">Consulta por DNI</string>
+    <string name="btBorrar">Borrar</string>
+    <string name="btModificar">Modificar</string>
+
+    
+</resources>
