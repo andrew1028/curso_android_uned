@@ -1,9 +1,16 @@
 package app.uned.es.ejercicio405;
 
+import android.content.ContentResolver;
 import android.content.ContentValues;
+import android.database.CharArrayBuffer;
+import android.database.ContentObserver;
+import android.database.Cursor;
+import android.database.DataSetObserver;
 import android.database.sqlite.SQLiteDatabase;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -28,8 +35,7 @@ public class Ejercicio405 extends ActionBarActivity {
     }
 
     public void alta(View view) {
-        AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this,
-                "administracion", null, 1);
+        AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "administracion", null, 1);
         SQLiteDatabase db = admin.getWritableDatabase();
         String dni = etDni.getText().toString();
         Integer dnInt = Integer.parseInt(dni);
@@ -51,6 +57,29 @@ public class Ejercicio405 extends ActionBarActivity {
                 Toast.LENGTH_LONG).show();
     }
 
+    public void consulta(View view) {
+        AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "administracion", null, 1);
+        SQLiteDatabase db = admin.getReadableDatabase();
+        String dni = etDni.getText().toString();
+        Cursor cursor = db.rawQuery("SELECT nombre, colegio, mesa FROM votantes" +
+                " WHERE dni=" + dni, null);
+        String nombre = new String();
+        String colegio = new String();
+        int mesa = 0;
+        
+        if (cursor.moveToFirst()) {
+            nombre = cursor.getString(0);
+            colegio = cursor.getString(1);
+            mesa = cursor.getInt(2);
+        }
+        
+        etNombre.setText(nombre);
+        etColegio.setText(colegio);
+        etMesa.setText(Integer.toString(mesa));
+
+        Toast.makeText(this, "Datos recuperados", Toast.LENGTH_LONG).show();
+    }
+    
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
