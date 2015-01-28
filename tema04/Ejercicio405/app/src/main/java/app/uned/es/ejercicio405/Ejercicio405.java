@@ -61,23 +61,64 @@ public class Ejercicio405 extends ActionBarActivity {
         AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "administracion", null, 1);
         SQLiteDatabase db = admin.getReadableDatabase();
         String dni = etDni.getText().toString();
-        Cursor cursor = db.rawQuery("SELECT nombre, colegio, mesa FROM votantes" +
-                " WHERE dni=" + dni, null);
-        String nombre = new String();
-        String colegio = new String();
-        int mesa = 0;
-        
-        if (cursor.moveToFirst()) {
-            nombre = cursor.getString(0);
-            colegio = cursor.getString(1);
-            mesa = cursor.getInt(2);
-        }
-        
-        etNombre.setText(nombre);
-        etColegio.setText(colegio);
-        etMesa.setText(Integer.toString(mesa));
+        if (dni.equals("")){
+            Cursor cursor = db.rawQuery("SELECT nombre, colegio, mesa FROM votantes" +
+                    " WHERE dni=" + dni, null);
+            String nombre = new String();
+            String colegio = new String();
+            int mesa = 0;
 
-        Toast.makeText(this, "Datos recuperados", Toast.LENGTH_LONG).show();
+            if (cursor.moveToFirst()) {
+                nombre = cursor.getString(0);
+                colegio = cursor.getString(1);
+                mesa = cursor.getInt(2);
+                etNombre.setText(nombre);
+                etColegio.setText(colegio);
+                etMesa.setText(Integer.toString(mesa));
+                Toast.makeText(this, "Datos recuperados", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(this, "No existe votante con el dni indicado.", Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
+
+    public void borrar(View view) {
+        AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "administracion", null, 1);
+        SQLiteDatabase db = admin.getWritableDatabase();
+        String dni = etDni.getText().toString();
+        
+        if (db.delete("votantes","dni='"+ dni +"'", null) == 1) {
+            db.close();
+            Toast.makeText(this, "Votante eliminado.", Toast.LENGTH_LONG).show();
+            etDni.setText("");
+            etNombre.setText("");
+            etColegio.setText("");
+            etMesa.setText("");
+        } else {
+            Toast.makeText(this, "No se ha eliminado al votante.", Toast.LENGTH_LONG).show();
+        }
+    }
+
+    public void modificar (View view) {
+        AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "administracion", null, 1);
+        SQLiteDatabase db = admin.getWritableDatabase();
+        String dni = etDni.getText().toString();
+        Integer dnInt = Integer.parseInt(dni);
+        String nombre = etNombre.getText().toString();
+        String colegio = etColegio.getText().toString();
+        String mesa = etMesa.getText().toString();
+        Integer mesaInt = Integer.parseInt(mesa);
+
+        ContentValues registro = new ContentValues();
+        registro.put("dni", dnInt);
+        registro.put("nombre", nombre);
+        registro.put("colegio", colegio);
+        registro.put("mesa", mesaInt);
+        db.update("votantes", registro, "dni='" + dni +"'", null);
+        db.close();
+        etDni.setText(""); etNombre.setText("");
+        etColegio.setText(""); etMesa.setText("");
+        Toast.makeText(this, "Votante modificado correctamente.", Toast.LENGTH_LONG).show();
     }
     
     @Override
