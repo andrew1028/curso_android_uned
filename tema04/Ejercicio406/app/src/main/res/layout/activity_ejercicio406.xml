@@ -1,11 +1,23 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Ejercicio406">
+    android:layout_height="match_parent" tools:context=".Ejercicio406"
+    android:orientation="vertical"
+    android:weightSum="1">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="192dp"
+        android:id="@+id/lvDepartamento"
+        android:layout_weight="0.27"
+        android:textAlignment="center" />
 
-</RelativeLayout>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:id="@+id/spEmpleados"
+        android:visibility="visible"
+        android:textAlignment="center"
+        android:spinnerMode="dropdown"
+        android:padding="15dp" />
+
+</LinearLayout>
