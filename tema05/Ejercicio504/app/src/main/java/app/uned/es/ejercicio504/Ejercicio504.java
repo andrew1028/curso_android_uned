@@ -4,14 +4,21 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.VideoView;
 
 
 public class Ejercicio504 extends ActionBarActivity {
 
+    private VideoView vVideo;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ejercicio504);
+        
+        vVideo = (VideoView)findViewById(R.id.vvVideo);
+        vVideo.setVideoPath("mnt/sdcard/movie.mp4");
+        vVideo.start();
     }
 
 

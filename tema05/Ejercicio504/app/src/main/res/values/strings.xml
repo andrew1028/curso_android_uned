@@ -3,5 +3,6 @@
 
     <string name="app_name">Ejercicio504</string>
     <string name="action_settings">Settings</string>
+    <string name="tvReproducir">Pulsa en la pantalla para reproducir el video</string>
 
 </resources>
