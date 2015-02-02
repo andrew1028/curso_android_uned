@@ -1,17 +1,36 @@
 package app.uned.es.ejercicio505;
 
+import android.location.LocationManager;
+import android.location.LocationProvider;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+
+import java.util.List;
 
 
 public class Ejercicio505 extends ActionBarActivity {
+    
+    private TextView tvLoc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ejercicio505);
+
+        tvLoc = (TextView)findViewById(R.id.tvLocalizacion);
+        LocationManager lM = (LocationManager)getSystemService(LOCATION_SERVICE);
+        List<String> listProviders = lM.getAllProviders();
+        String listado = "";
+        LocationProvider provider;
+        for (int i = 0; i < listProviders.size(); i++) {
+            provider = lM.getProvider(listProviders.get(i));
+            listado = listado + provider.getName() + ", prec: " + provider.getAccuracy() + ", alt: "
+                    + provider.supportsAltitude() + ", vel: " + provider.supportsSpeed() + "\n";
+        }
+        tvLoc.setText(listado);
     }
 
 
