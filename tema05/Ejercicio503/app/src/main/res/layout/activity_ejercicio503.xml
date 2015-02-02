@@ -19,7 +19,8 @@
         android:id="@+id/btnGrabar"
         android:layout_marginTop="22dp"
         android:layout_below="@+id/tvEstado"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="grabar" />
 
     <Button
         android:layout_width="wrap_content"
@@ -28,7 +29,8 @@
         android:id="@+id/btnDetener"
         android:layout_marginTop="23dp"
         android:layout_below="@+id/btnGrabar"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="detener" />
 
     <Button
         android:layout_width="wrap_content"
@@ -37,6 +39,7 @@
         android:id="@+id/btnReproducir"
         android:layout_marginTop="22dp"
         android:layout_below="@+id/btnDetener"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="reproducir" />
 
 </RelativeLayout>
