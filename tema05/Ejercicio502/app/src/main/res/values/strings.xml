@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejercicio502</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnIniciar">Iniciar</string>
+    <string name="btnPausar">Pausar</string>
+    <string name="btnContinuar">Continuar</string>
+    <string name="btnDetener">Detener</string>
+    <string name="btnCircular">No reproducir en forma circular</string>
+    <string name="tvMensaje">Reproductor de audio :)</string>
+
+</resources>

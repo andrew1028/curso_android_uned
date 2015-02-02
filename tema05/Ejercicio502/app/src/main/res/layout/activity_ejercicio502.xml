@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Ejercicio502">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnIniciar"
+        android:id="@+id/btnIniciar"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="iniciar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnPausar"
+        android:id="@+id/btnPausar"
+        android:layout_below="@+id/btnIniciar"
+        android:layout_centerHorizontal="true"
+        android:onClick="pausar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnContinuar"
+        android:id="@+id/btnContinuar"
+        android:layout_below="@+id/btnPausar"
+        android:layout_centerHorizontal="true"
+        android:onClick="continuar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDetener"
+        android:id="@+id/btnDeterner"
+        android:layout_below="@+id/btnContinuar"
+        android:layout_centerHorizontal="true"
+        android:onClick="detener" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCircular"
+        android:id="@+id/btnCircular"
+        android:layout_below="@+id/btnDeterner"
+        android:layout_centerHorizontal="true"
+        android:onClick="circular" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvMensaje"
+        android:id="@+id/tvMensaje"
+        android:layout_below="@+id/btnCircular"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
+</RelativeLayout>
