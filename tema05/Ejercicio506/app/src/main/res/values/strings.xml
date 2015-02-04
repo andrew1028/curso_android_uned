@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Ejercicio506</string>
-    <string name="tvLoc"></string>
+    <string name="tvLoc">Detectando localización...</string>
     <string name="action_settings">Settings</string>
 
 </resources>
