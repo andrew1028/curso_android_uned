@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Ejercicio507</string>
-    <string name="tvSensores"></string>
+    <string name="tvSensores">Sensores del dispositivo:</string>
     <string name="action_settings">Settings</string>
 
 </resources>

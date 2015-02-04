@@ -1,17 +1,32 @@
 package app.uned.es.ejercicio507;
 
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+
+import java.util.List;
 
 
 public class Ejercicio507 extends ActionBarActivity {
 
+    private TextView sensores;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ejercicio507);
+
+        sensores = (TextView) findViewById(R.id.tvSensor);
+        SensorManager sensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
+        List<Sensor> listaSensores = sensorManager.getSensorList(Sensor.TYPE_ALL);
+        for(Sensor sensor: listaSensores) {
+            sensores.append("\n");
+            sensores.append(sensor.getName() + "\n");
+        }
     }
 
 
