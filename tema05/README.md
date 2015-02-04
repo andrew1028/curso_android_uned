@@ -37,6 +37,7 @@ móvil. Si no podemos obtener estas coordenadas reales, podremos simularlas en e
 [Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema05/img/resultado507.png)
 
 ### Ejercicio 508: Escuchar eventos de sensor
+Escuchar eventos del sensor de proximidad.
 [Resultado](https://github.com/franlu/curso_android_uned/blob/master/tema05/img/resultado508.png)
 
 ### Ejercicio 509: Centrar el mapa en un punto
